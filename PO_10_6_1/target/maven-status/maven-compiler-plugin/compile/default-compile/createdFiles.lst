@@ -1,0 +1,8 @@
+Servlets\addCountry.class
+Servlets\deleteCity.class
+Servlets\deleteCountry.class
+Servlets\cities.class
+Servlets\addCity.class
+Servlets\cityDTO.class
+Servlets\countries.class
+Servlets\countryDTO.class

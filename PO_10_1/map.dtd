@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<!ELEMENT map ( country* )> 
+<!ELEMENT country ( nameC, city* )> 
+<!ATTLIST country id CDATA  #REQUIRED>
+<!ELEMENT nameC ( #PCDATA )>
+<!ELEMENT count ( #PCDATA )> 
+<!ELEMENT city ( name, iscap, count )> 
+<!ATTLIST city id CDATA  #REQUIRED>
+<!ELEMENT iscap (#PCDATA)> 
+<!ELEMENT name (#PCDATA)>
